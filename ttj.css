@@ -1,0 +1,98 @@
+#ui {
+    align-items: center;
+    /* margin: auto; */
+    display: flex;
+    flex-direction: column;
+}
+
+h1 {
+    text-align: center;
+}
+
+input {
+    width: 80px;
+    height: 80px;
+    
+}
+
+button {
+    display: block;
+    margin: auto;
+    margin-bottom: 100px;
+    border-radius: 8px;
+    border: none;
+    height: 30px;
+    width: 50px;
+    cursor: pointer;
+    background-color: green;
+    color: white;
+    
+}
+
+.row {
+    display: flex;
+}
+
+#b1 {
+    border-left: none;
+    border-top: none;
+    border-bottom: 1px solid gray;
+    border-right: 1px solid gray;
+}
+
+#b2 {
+    border-top: none;
+    border-right: 1px solid gray;
+    border-bottom: 1px solid gray;
+    border-left: 1px solid gray;
+}
+
+#b3 {
+    border-top: none;
+    border-right: none;
+    border-bottom: 1px solid gray;
+    border-left: 1px solid gray;
+}
+
+#b4 {
+    border-left: none;
+    border-bottom: 1px solid gray;
+    border-right: 1px solid gray;
+    border-top: 1px solid gray;
+}
+
+#b5 {
+    border-left: 1px solid gray;
+    border-bottom: 1px solid gray;
+    border-top: 1px solid gray;
+    border-right: 1px solid gray;
+}
+
+#b6 {
+    border-right: none;
+    border-bottom: 1px solid gray;
+    border-left: 1px solid gray;
+    border-top: 1px solid gray;
+}
+
+#b7 {
+    border-right: 1px solid gray;
+    border-bottom: none;
+    border-left: none;
+    border-top: 1px solid gray;
+}
+
+#b8 {
+    border-right: 1px solid gray;
+    border-bottom: none;
+    border-left: 1px solid gray;
+    border-top: 1px solid gray;
+}
+
+#b9 {
+    border-right: none;
+    border-bottom: none;
+    border-left: 1px solid gray;
+    border-top: 1px solid gray;
+}
+
